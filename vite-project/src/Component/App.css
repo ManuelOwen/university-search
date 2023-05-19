@@ -1,0 +1,36 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .grid-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  h3, p, a {
+    margin: 0;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    font-size: 14px;
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  p.website {
+    margin-top: 10px;
+  }
+  
